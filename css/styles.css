@@ -6,7 +6,6 @@ h1 {
 	font-size: 3.5rem;
 	font-weight: 900;
 	line-height: 1.5;
-	width: 80%;
 }
 
 h2 {
@@ -129,4 +128,28 @@ h2 {
 
 .pricing-card {
 	min-height: 100%;
+}
+
+@media (max-width: 1460px) {
+	h1 {
+		font-size: 2.5rem;
+		margin-bottom: 10%;
+	}
+
+	#title {
+		text-align: center;
+	}
+
+	.download-button {
+		margin-bottom: 15%;
+	}
+
+	.title-image {
+		position: static;
+		transform: rotate(0);
+	}
+
+	.carousel-item h2 {
+		font-size: 30px;
+	}
 }
