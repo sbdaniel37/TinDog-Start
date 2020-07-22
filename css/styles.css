@@ -1,24 +1,36 @@
 body {
 	font-family: 'Montserrat', sans-serif;
+	text-align: center;
 }
 
-h1 {
-	font-size: 3.5rem;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	font-weight: 900;
 	line-height: 1.5;
 }
 
-h2 {
-	font-size: 3rem;
-	font-weight: 700;
-	line-height: 1.5;
+/* Containers */
+.container-fluid {
+	padding: 7% 15%;
 }
 
-h3 {
+/* Sections */
+.colored-section {
+	background-color: #ff4c68;
 	color: white;
-	font-size: 3.5rem;
-	font-weight: 900;
-	line-height: 1.5;
+}
+
+.white-section {
+	background-color: white;
+}
+
+/* Headings */
+.section-heading {
+	font-size: 2rem;
 }
 
 /* Navigation Bar */
@@ -42,13 +54,13 @@ h3 {
 }
 
 /* Title Section */
-#title {
-	background-color: #ff4c68;
-	color: white;
+#title .container-fluid {
+	padding: 3% 15% 7%;
+	text-align: left;
 }
 
-.container-fluid {
-	padding: 3% 15% 12%;
+.big-heading {
+	font-size: 3.5rem;
 }
 
 /* Download Buttons */
@@ -65,10 +77,8 @@ h3 {
 
 /* Features Section */
 #features {
-	background-color: white;
 	padding: 7% 15% 0 15%;
 	position: relative;
-	text-align: center;
 }
 
 .features-box {
@@ -86,7 +96,6 @@ h3 {
 
 .features-title {
 	font-size: 1.5rem;
-	font-weight: 700;
 }
 
 .features-text {
@@ -98,8 +107,10 @@ h3 {
 /* Testimonials Section */
 #testimonials {
 	background-color: #ef8172;
-	color: white;
-	text-align: center;
+}
+
+.testimonial-text {
+	font-size: 3rem;
 }
 
 .testimonial-img {
@@ -111,7 +122,6 @@ h3 {
 #press {
 	background-color: #ef8172;
 	padding-bottom: 3%;
-	text-align: center;
 }
 
 .press-logo {
@@ -119,18 +129,21 @@ h3 {
 	width: 15%;
 }
 
-.carousel-item {
-	padding: 7% 15%;
-}
-
 /* Pricing Section */
 #pricing {
 	padding: 100px;
-	text-align: center;
 }
 
 .card-header {
 	background-color: black;
+}
+
+.pricing-title {
+	color: white;
+}
+
+.price-text {
+	font-size: 2rem;
 }
 
 .pricing-column {
@@ -142,18 +155,11 @@ h3 {
 }
 
 /* Call to Action Section */
-#cta {
-	background-color: #ff4c68;
-	padding: 7% 15%;
-	text-align: center;
+.cta-heading {
+	padding-top: 5%;
 }
 
 /* Footer */
-#footer {
-	padding: 100px;
-	text-align: center;
-}
-
 .footer-social-media {
 	margin: 20px 10px;
 }
