@@ -16,7 +16,9 @@ h2 {
 
 h3 {
 	color: white;
+	font-size: 3.5rem;
 	font-weight: 900;
+	line-height: 1.5;
 }
 
 /* Navigation Bar */
@@ -127,6 +129,10 @@ h3 {
 	text-align: center;
 }
 
+.card-header {
+	background-color: black;
+}
+
 .pricing-column {
 	padding: 3% 2%;
 }
@@ -138,12 +144,8 @@ h3 {
 /* Call to Action Section */
 #cta {
 	background-color: #ff4c68;
-	padding: 100px;
+	padding: 7% 15%;
 	text-align: center;
-}
-
-.download-button-bottom {
-	margin: 32.5469px 19.5414px 0 0;
 }
 
 /* Footer */
@@ -162,6 +164,14 @@ h3 {
 		margin-bottom: 10%;
 	}
 
+	h2 {
+		font-size: 30px;
+	}
+
+	h3 {
+		font-size: 30px;
+	}
+
 	#title {
 		text-align: center;
 	}
@@ -173,9 +183,5 @@ h3 {
 	.title-image {
 		position: static;
 		transform: rotate(0);
-	}
-
-	.carousel-item h2 {
-		font-size: 30px;
 	}
 }
