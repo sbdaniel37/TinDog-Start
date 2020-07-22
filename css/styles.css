@@ -14,6 +14,11 @@ h2 {
 	line-height: 1.5;
 }
 
+h3 {
+	color: white;
+	font-weight: 900;
+}
+
 /* Navigation Bar */
 .navbar {
 	padding: 0 0 4.5rem;
@@ -128,6 +133,27 @@ h2 {
 
 .pricing-card {
 	min-height: 100%;
+}
+
+/* Call to Action Section */
+#cta {
+	background-color: #ff4c68;
+	padding: 100px;
+	text-align: center;
+}
+
+.download-button-bottom {
+	margin: 32.5469px 19.5414px 0 0;
+}
+
+/* Footer */
+#footer {
+	padding: 100px;
+	text-align: center;
+}
+
+.footer-social-media {
+	margin: 0 5px 20px;
 }
 
 @media (max-width: 1460px) {
